@@ -4,3 +4,5 @@ function verificaPalindromo (string) {
 
     return string.split("").reverse().join("") === string;
 }
+
+console.log(verificaPalindromo("ovo"));
