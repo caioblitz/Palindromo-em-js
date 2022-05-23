@@ -1,5 +1,6 @@
+//solução 1
 function verificaPalindromo (string) {
     if(!string) return;
 
-    string.split("").reverse().join()
+    return string.split("").reverse().join("") === string;
 }
