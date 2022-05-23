@@ -5,4 +5,11 @@ function verificaPalindromo (string) {
     return string.split("").reverse().join("") === string;
 }
 
-console.log(verificaPalindromo("ovo"));
+//solução 2
+function verificaPalindromo2(string) {
+    if (!string) return "string inexistente";
+
+    for(let i = 0; i < string.length; i++) {
+        
+    }
+}
